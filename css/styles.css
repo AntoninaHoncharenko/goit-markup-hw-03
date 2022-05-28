@@ -240,15 +240,15 @@ body {
 
 .footer-link {
   font-size: 14px;
-  line-height: 17.1;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
   display: block;
 }
 
-.footer-mail {
+.footer-mail,
+.footer-tel {
   display: block;
-  margin-bottom: 9px;
 }
 
 .footer-tel,
@@ -302,12 +302,21 @@ body {
   background-color: var(--accent-color);
 }
 
+.portfolio-list {
+  margin-top: 50px;
+}
+
+.portfolio-container {
+  padding: 20px 24px;
+}
+
 .portfolio-sub-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--main-color);
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .portfilolio-text {
