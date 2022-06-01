@@ -184,16 +184,13 @@ body {
 
 /* -------Benefits------- */
 
-.benefits {
-  padding-bottom: 0;
-}
-
 .benefits-list {
   display: flex;
 }
 
 .benefits-item:not(:last-child) {
   margin-right: 30px;
+  min-width: 270px;
 }
 
 .benefits-subtitle {
@@ -213,6 +210,10 @@ body {
 }
 
 /* -------Works------- */
+
+.works {
+  padding-top: 0;
+}
 
 .works-title {
   font-weight: 700;
@@ -287,8 +288,8 @@ body {
 
 .footer {
   background-color: #2f303a;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -304,7 +305,7 @@ body {
   font-style: normal;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -396,6 +397,12 @@ body {
   width: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.portfolio-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-container {
